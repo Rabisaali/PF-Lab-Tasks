@@ -14,10 +14,10 @@ int main () {
         printf("%d ", array[i]);
     }
 
-    //storing the last elemnt of the array in a new variable
+    //storing the last element of the array in a new variable
     int temp = array[5];
 
-    //changing the places of teh elements
+    //changing the places of elements
     for (int i=5; i>=0; i--) {
         array [i+1] = array[i];
     }
