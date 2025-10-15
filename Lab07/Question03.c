@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main () {
 	int userAges[8];
-	printf("Enter Participant's' Age: \n");
+	printf("Enter Participants Age: \n");
 	int i;
 	for (i=0; i<8; i++) {
 		scanf("%d", &userAges[i]);
