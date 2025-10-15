@@ -7,17 +7,18 @@ int main () {
         scanf("%d", &array[i]);
     }
 //printing the user inputed array 
+printf("The array that has been inputed by user is: ");
     for (int i=0; i<10; i++) {
         printf("%d ", array[i]);
     }
 
     for(int i=0; i<10; i++) {
-        if(array[i+1] == '\0') {
-            printf("The array is in ascending order/n");
+        if(i+1 == 10) {
+            printf("\nThe array is in ascending order\n");
             break;
         }
         if(array[i] > array[i+1]) {
-            printf("The array is not in ascending order\n");
+            printf("\nThe array is not in ascending order\n");
             break;
         }
     }  
@@ -36,7 +37,7 @@ int main () {
             }
         }
     }
-
+    printf("The array in ascending order is: ");
     for(int i=0; i<10; i++) {
         printf("%d ", array[i]);
     }
