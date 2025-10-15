@@ -16,6 +16,8 @@ int main () {
             j++;
         }
     }
+
+    printf("The new array is: ");
     for (int i=0; i<j; i++) {
         printf("%d ", array[i]);
     }
