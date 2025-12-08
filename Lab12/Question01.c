@@ -13,7 +13,7 @@ int main () {
     if (ptr==NULL) {
         printf("Memory Allocation Failed.\n");
         printf("Terminating the program.....\n");
-        return 0;
+        return 1;
     }
     // else taking input from the user and storing it the form of arrays... with the help of pointers
     for (int i=0; i<n; i++) {
@@ -29,5 +29,5 @@ int main () {
     // freeing the memory
     free(ptr);
     printf("Memory successfully freed... ending the program\n");
-
+    return 0;
 }
