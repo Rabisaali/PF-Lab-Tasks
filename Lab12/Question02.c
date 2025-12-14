@@ -68,7 +68,7 @@ int main () {
         int* temp = (int*) realloc (ptr, num*sizeof(int));
 
         // if the memory allocation fails end the program
-        if (ptr==NULL) {
+        if (temp==NULL) {
             printf("Memory allocation failed.\n");
             printf("Terminating the program......\n");
 
